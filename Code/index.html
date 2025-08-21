@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture Monitoring</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Agriculture Monitoring Dashboard</h1>
+    </header>
+    <main>
+        <section id="environmental-conditions">
+            <h2>Environmental Conditions</h2>
+            <div class="sensor-data">
+                <p>Temperature: <span id="temperature">--</span> °C</p>
+                <p>Moisture: <span id="moisture">--</span> %</p>
+                <p>Salinity: <span id="salinity">--</span> ppt</p>
+            </div>
+        </section>
+        <section id="disease-detection">
+            <h2>Disease Detection</h2>
+            <p id="disease-status">No disease detected</p>
+        </section>
+        <section id="weather-report">
+            <h2>Weather Report</h2>
+            <p id="weather-info">Fetching weather data...</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Agriculture Monitoring System</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
